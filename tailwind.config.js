@@ -150,16 +150,16 @@ export default {
         },
       },
       animation: {
-        'slide-move': 'slideMovement 21s ease-in-out infinite',
-        'vsm-slide-move': 'vSmSlideMovement 21s ease-in-out infinite',
-        'opacity-shift-1': 'opacityShiftOne 21s ease-in-out infinite',
-        'opacity-shift-2': 'opacityShiftTwo 21s ease-in-out infinite',
-        'opacity-shift-3': 'opacityShiftThree 21s ease-in-out infinite',
+        'slide-move': 'slideMovement 15s ease-in-out infinite',
+        'vsm-slide-move': 'vSmSlideMovement 15s ease-in-out infinite',
+        'opacity-shift-1': 'opacityShiftOne 15s ease-in-out infinite',
+        'opacity-shift-2': 'opacityShiftTwo 15s ease-in-out infinite',
+        'opacity-shift-3': 'opacityShiftThree 15s ease-in-out infinite',
         'opacity-shift-2pics-1': 'opacityShiftTwoPicsOne 14s ease-in-out infinite',
         'opacity-shift-2pics-2': 'opacityShiftTwoPicsTwo 14s ease-in-out infinite',
-        'button-opacity-shift-1': 'buttonOpacityShiftOne 21s ease-in-out infinite',
-        'button-opacity-shift-2': 'buttonOpacityShiftTwo 21s ease-in-out infinite',
-        'button-opacity-shift-3': 'buttonOpacityShiftThree 21s ease-in-out infinite',
+        'button-opacity-shift-1': 'buttonOpacityShiftOne 15s ease-in-out infinite',
+        'button-opacity-shift-2': 'buttonOpacityShiftTwo 15s ease-in-out infinite',
+        'button-opacity-shift-3': 'buttonOpacityShiftThree 15s ease-in-out infinite',
         'button-opacity-shift-2pics-1': 'buttonOpacityShiftTwoPicsOne 14s ease-in-out infinite',
         'button-opacity-shift-2pics-2': 'buttonOpacityShiftTwoPicsTwo 14s ease-in-out infinite',
         'ship-1-twitch': 'shipTwitch 15s ease-in-out infinite',
@@ -171,7 +171,8 @@ export default {
         'cat-2-twitch': 'catTwitch 31s 6s ease-in-out infinite'
       },
       screens: {
-        'vSm': { 'max': '400px' }
+        'vSm': { 'max': '400px' },
+        'pSm': { 'max': '480px' }
       }
     },
   },
