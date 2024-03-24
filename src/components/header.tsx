@@ -23,9 +23,9 @@ const Header = () => {
         <button id="hamburger-button" className="fixed left-2 text-2xl lg:hidden" onClick={() => setMobileMenu(true)}>
           &#9776;
         </button>
-        <img src="./src/images/two.png" alt="gunther" className="min-h-8 max-h-8 min-w-8 max-w-8 mx-6 animate-cat-1-twitch vSm:min-h-6 vSm:max-h-6 vSm:min-w-6 vSm:max-w-6" />
+        <img src="./src/images/gunther-1.png" alt="gunther" className="min-h-10 max-h-10 min-w-10 max-w-10 mx-6 rounded-full animate-cat-1-twitch vSm:min-h-8 vSm:max-h-8 vSm:min-w-8 vSm:max-w-8" />
         <h1 className="text-xl vSm:text-lg">Spud In Transit</h1>
-        <img src="./src/images/five.png" alt="pharoah" className="min-h-8 max-h-8 min-w-8 max-w-8 mx-6 animate-cat-2-twitch vSm:min-h-6 vSm:max-h-6 vSm:min-w-6 vSm:max-w-6" />
+        <img src="./src/images/pharoah-1.png" alt="pharoah" className="min-h-10 max-h-10 min-w-10 max-w-10 mx-6 rounded-full animate-cat-2-twitch vSm:min-h-8 vSm:max-h-8 vSm:min-w-8 vSm:max-w-8" />
         </section>
         <section id="mobile-menu" className="h-12 text-2xl flex-col bg-videoGameGreen z-20 font-silkscreen">
         <button className="text-4xl self-end px-6 z-20 font-mono" onClick={() => setMobileMenu(false)}>
