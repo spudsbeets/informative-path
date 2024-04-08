@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 const MusicPage = () => {
 
     function checkDate(): void {
-        const inputDate = new Date('2024-02-07');
+        const inputDate = new Date('2024-05-18');
         const currentDate = new Date();
         const tuePostRelease = document.getElementById("tuesday-post-release");
         const tuePreRelease = document.getElementById("tuesday-pre-release");
@@ -60,7 +60,7 @@ const MusicPage = () => {
         <div id="tuesday-pre-release" className="flex justify-center align-center">
         <section className="bg-videoGameGreen border-borderGreen border-8 h-screen/30 w-screen/90 items-center gap-2 pl-2 my-4 md:h-screen/40 blur-xl">
         </section>
-        <h1 className="text-xl md:text-4xl absolute mt-32">COMING xx/xx/xxxx</h1>
+        <h1 className="text-xl md:text-4xl absolute mt-32">COMING 05.21.2024</h1>
         </div>
 
         <section id="wednesday-post-release" className="grid grid-cols-3 grid-rows-3 bg-videoGameGreen border-borderGreen border-8 h-screen/30 w-screen/90 items-center gap-2 pl-2 my-4 md:h-screen/40">
@@ -84,7 +84,7 @@ const MusicPage = () => {
         <div id="wednesday-pre-release" className="flex justify-center align-center">
         <section className="bg-videoGameGreen border-borderGreen border-8 h-screen/30 w-screen/90 items-center gap-2 pl-2 my-4 md:h-screen/40 blur-xl">
         </section>
-        <h1 className="text-xl md:text-4xl absolute mt-32">COMING xx/xx/xxxx</h1>
+        <h1 className="text-xl md:text-4xl absolute mt-32">COMING 05.22.2024</h1>
         </div>
 
         <section className="grid grid-cols-3 grid-rows-3 bg-videoGameGreen border-borderGreen border-8 h-screen/30 w-screen/90 items-center gap-2 pl-2 my-4 md:h-screen/40">
