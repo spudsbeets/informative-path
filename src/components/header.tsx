@@ -23,9 +23,9 @@ const Header = () => {
         <button id="hamburger-button" className="fixed left-2 text-2xl lg:hidden" onClick={() => setMobileMenu(true)}>
           &#9776;
         </button>
-        <img src="./src/images/gunther-1.png" alt="gunther" className="min-h-10 max-h-10 min-w-10 max-w-10 mx-6 rounded-full animate-cat-1-twitch vSm:min-h-8 vSm:max-h-8 vSm:min-w-8 vSm:max-w-8" />
+        <img src="/images/gunther-1.png" alt="gunther" className="min-h-10 max-h-10 min-w-10 max-w-10 mx-6 rounded-full animate-cat-1-twitch vSm:min-h-8 vSm:max-h-8 vSm:min-w-8 vSm:max-w-8" />
         <h1 className="text-xl vSm:text-lg">Spud In Transit</h1>
-        <img src="./src/images/pharoah-1.png" alt="pharoah" className="min-h-10 max-h-10 min-w-10 max-w-10 mx-6 rounded-full animate-cat-2-twitch vSm:min-h-8 vSm:max-h-8 vSm:min-w-8 vSm:max-w-8" />
+        <img src="/images/pharoah-1.png" alt="pharoah" className="min-h-10 max-h-10 min-w-10 max-w-10 mx-6 rounded-full animate-cat-2-twitch vSm:min-h-8 vSm:max-h-8 vSm:min-w-8 vSm:max-w-8" />
         </section>
         <section id="mobile-menu" className="h-12 text-2xl flex-col bg-videoGameGreen z-20 font-silkscreen">
         <button className="text-4xl self-end px-6 z-20 font-mono" onClick={() => setMobileMenu(false)}>
@@ -36,7 +36,7 @@ const Header = () => {
         <Link to="/codePage" rel="noreferrer" className="text-center hover:opacity-50 bg-slate-800 rounded-lg py-4 px-10">Programming</Link>
         <Link to="/mePage" rel="noreferrer" className="text-center hover:opacity-50 bg-slate-600 rounded-lg py-4 px-10">Me!</Link>
         <Link to="/linksPage" rel="noreferrer" className="text-center hover:opacity-50 bg-slate-800 rounded-lg py-4 px-10">Links</Link>
-        <a href="/homepage" className="text-center hover:opacity-50 bg-slate-600 rounded-lg py-4 px-10">Home</a>
+        <a href="https://www.spudintransit.com" className="text-center hover:opacity-50 bg-slate-600 rounded-lg py-4 px-10">Home</a>
         </nav>
         </section>
         <section className="hidden lg:flex flex-row text-[13px] flex-nowrap font-silkscreen text-videoGameGreen">
@@ -44,7 +44,7 @@ const Header = () => {
         <Link to="/codePage" rel="noreferrer" className="hover:opacity-50 bg-slate-800 rounded-lg self-center mx-4 py-2 px-6">Programming</Link>
         <Link to="/mePage" rel="noreferrer" className="hover:opacity-50 bg-slate-600 rounded-lg self-center mx-4 py-2 px-6">Me!</Link>
         <Link to="/linksPage" rel="noreferrer" className="hover:opacity-50 bg-slate-800 rounded-lg self-center mx-4 py-2 px-6">Links</Link>
-        <a href="/homepage" className="hover:opacity-50 bg-slate-600 rounded-lg self-center mx-4 py-2 px-6">Home</a>
+        <a href="https://www.spudintransit.com" className="hover:opacity-50 bg-slate-600 rounded-lg self-center mx-4 py-2 px-6">Home</a>
         </section>
         </header>
     )

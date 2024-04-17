@@ -17,9 +17,9 @@ const MePage = () => {
         <section className="bg-videoGameGreen border-borderGreen border-8 h-screen/65 w-screen/90 items-center pl-2 grid grid-rows-2">
         <div className="h-full grid grid-cols-2 grid-rows-2 items-center pt-2 row-start-1">
         <div className="pt-2 place-self-center col-start-1 row-start-1 min-w-32 max-w-32 min-h-32 max-h-32 md:min-w-40 md:max-w-40 md:min-h-40 md:max-h-40 vSm:min-w-24 vSm:max-w-24 vSm:min-h-24 vSm:max-h-24 md:pt-6">
-        <img src="./src/images/just-sean.png" alt="sean" className="min-w-32 max-w-32 min-h-32 max-h-32 hover:opacity-60 absolute animate-opacity-shift-1 md:min-w-40 md:max-w-40 md:min-h-40 md:max-h-40 vSm:min-w-24 vSm:max-w-24 vSm:min-h-24 vSm:max-h-24" />
-        <img src="./src/images/sean-tyna.png" alt="sean-tyna" className="min-w-32 max-w-32 min-h-32 max-h-32 hover:opacity-60 absolute animate-opacity-shift-2 md:min-w-40 md:max-w-40 md:min-h-40 md:max-h-40 vSm:min-w-24 vSm:max-w-24 vSm:min-h-24 vSm:max-h-24" />
-        <img src="./src/images/gunther-pharoah.png" alt="the-cats" className="min-w-32 max-w-32 min-h-32 max-h-32 hover:opacity-60 absolute animate-opacity-shift-3 md:min-w-40 md:max-w-40 md:min-h-40 md:max-h-40 vSm:min-w-24 vSm:max-w-24 vSm:min-h-24 vSm:max-h-24" />
+        <img src="/images/just-sean.png" alt="sean" className="min-w-32 max-w-32 min-h-32 max-h-32 hover:opacity-60 absolute animate-opacity-shift-1 md:min-w-40 md:max-w-40 md:min-h-40 md:max-h-40 vSm:min-w-24 vSm:max-w-24 vSm:min-h-24 vSm:max-h-24" />
+        <img src="/images/sean-tyna.png" alt="sean-tyna" className="min-w-32 max-w-32 min-h-32 max-h-32 hover:opacity-60 absolute animate-opacity-shift-2 md:min-w-40 md:max-w-40 md:min-h-40 md:max-h-40 vSm:min-w-24 vSm:max-w-24 vSm:min-h-24 vSm:max-h-24" />
+        <img src="/images/gunther-pharoah.png" alt="the-cats" className="min-w-32 max-w-32 min-h-32 max-h-32 hover:opacity-60 absolute animate-opacity-shift-3 md:min-w-40 md:max-w-40 md:min-h-40 md:max-h-40 vSm:min-w-24 vSm:max-w-24 vSm:min-h-24 vSm:max-h-24" />
         </div>
         <div className="pb-5 flex flex-row place-self-center col-start-1 row-start-2 md:pt-12">
             <div className="bg-borderGreen rounded-full w-2 h-2 mx-1 animate-button-opacity-shift-1"></div>

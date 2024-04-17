@@ -42,8 +42,8 @@ const MusicPage = () => {
         <section id="tuesday-post-release" className="grid grid-cols-3 grid-rows-3 bg-videoGameGreen border-borderGreen border-8 h-screen/30 w-screen/90 items-center gap-2 pl-2 my-4 md:h-screen/40">
         <div className="row-start-1 row-span-3 col-start-1 h-full flex flex-col justify-center items-center">
         <div className="min-w-32 max-w-32 min-h-32 max-h-32 md:min-w-40 md:max-w-40 md:min-h-40 md:max-h-40 xl:min-w-52 xl:max-w-52 xl:min-h-52 xl:max-h-52 vSm:min-w-24 vSm:max-w-24 vSm:min-h-24 vSm:max-h-24">
-        <img src="./src/images/tue-cover.png" alt="tue-w-gp-cover" className="min-w-32 max-w-32 min-h-32 max-h-32 hover:opacity-60 absolute animate-opacity-shift-2pics-1 md:min-w-40 md:max-w-40 md:min-h-40 md:max-h-40 xl:min-w-52 xl:max-w-52 xl:min-h-52 xl:max-h-52 vSm:min-w-24 vSm:max-w-24 vSm:min-h-24 vSm:max-h-24" />
-        <img src="./src/images/tue-tl.png" alt="tue-w-gp-tracklist" className="min-w-32 max-w-32 min-h-32 max-h-32 hover:opacity-60 absolute animate-opacity-shift-2pics-2 md:min-w-40 md:max-w-40 md:min-h-40 md:max-h-40 xl:min-w-52 xl:max-w-52 xl:min-h-52 xl:max-h-52 vSm:min-w-24 vSm:max-w-24 vSm:min-h-24 vSm:max-h-24" />
+        <img src="/images/tue-cover.png" alt="tue-w-gp-cover" className="min-w-32 max-w-32 min-h-32 max-h-32 hover:opacity-60 absolute animate-opacity-shift-2pics-1 md:min-w-40 md:max-w-40 md:min-h-40 md:max-h-40 xl:min-w-52 xl:max-w-52 xl:min-h-52 xl:max-h-52 vSm:min-w-24 vSm:max-w-24 vSm:min-h-24 vSm:max-h-24" />
+        <img src="/images/tue-tl.png" alt="tue-w-gp-tracklist" className="min-w-32 max-w-32 min-h-32 max-h-32 hover:opacity-60 absolute animate-opacity-shift-2pics-2 md:min-w-40 md:max-w-40 md:min-h-40 md:max-h-40 xl:min-w-52 xl:max-w-52 xl:min-h-52 xl:max-h-52 vSm:min-w-24 vSm:max-w-24 vSm:min-h-24 vSm:max-h-24" />
         </div>
         <div className="flex flex-row self-center pt-6">
             <div className="bg-borderGreen rounded-full w-2 h-2 mx-1 animate-button-opacity-shift-2pics-1"></div>
@@ -66,8 +66,8 @@ const MusicPage = () => {
         <section id="wednesday-post-release" className="grid grid-cols-3 grid-rows-3 bg-videoGameGreen border-borderGreen border-8 h-screen/30 w-screen/90 items-center gap-2 pl-2 my-4 md:h-screen/40">
         <div className="row-start-1 row-span-3 col-start-1 h-full flex flex-col justify-center items-center">
         <div className="min-w-32 max-w-32 min-h-32 max-h-32 md:min-w-40 md:max-w-40 md:min-h-40 md:max-h-40 xl:min-w-52 xl:max-w-52 xl:min-h-52 xl:max-h-52 vSm:min-w-24 vSm:max-w-24 vSm:min-h-24 vSm:max-h-24">
-        <img src="./src/images/wed-cover.png" alt="wed-w-gp-cover" className="min-w-32 max-w-32 min-h-32 max-h-32 hover:opacity-60 absolute animate-opacity-shift-2pics-1 md:min-w-40 md:max-w-40 md:min-h-40 md:max-h-40 xl:min-w-52 xl:max-w-52 xl:min-h-52 xl:max-h-52 vSm:min-w-24 vSm:max-w-24 vSm:min-h-24 vSm:max-h-24" />
-        <img src="./src/images/wed-tl.png" alt="wed-w-gp-tracklist" className="min-w-32 max-w-32 min-h-32 max-h-32 hover:opacity-60 absolute animate-opacity-shift-2pics-2 md:min-w-40 md:max-w-40 md:min-h-40 md:max-h-40 xl:min-w-52 xl:max-w-52 xl:min-h-52 xl:max-h-52 vSm:min-w-24 vSm:max-w-24 vSm:min-h-24 vSm:max-h-24" />
+        <img src="/images/wed-cover.png" alt="wed-w-gp-cover" className="min-w-32 max-w-32 min-h-32 max-h-32 hover:opacity-60 absolute animate-opacity-shift-2pics-1 md:min-w-40 md:max-w-40 md:min-h-40 md:max-h-40 xl:min-w-52 xl:max-w-52 xl:min-h-52 xl:max-h-52 vSm:min-w-24 vSm:max-w-24 vSm:min-h-24 vSm:max-h-24" />
+        <img src="/images/wed-tl.png" alt="wed-w-gp-tracklist" className="min-w-32 max-w-32 min-h-32 max-h-32 hover:opacity-60 absolute animate-opacity-shift-2pics-2 md:min-w-40 md:max-w-40 md:min-h-40 md:max-h-40 xl:min-w-52 xl:max-w-52 xl:min-h-52 xl:max-h-52 vSm:min-w-24 vSm:max-w-24 vSm:min-h-24 vSm:max-h-24" />
         </div>
         <div className="flex flex-row self-center pt-6">
             <div className="bg-borderGreen rounded-full w-2 h-2 mx-1 animate-button-opacity-shift-2pics-1"></div>
@@ -90,7 +90,7 @@ const MusicPage = () => {
         <section className="grid grid-cols-3 grid-rows-3 bg-videoGameGreen border-borderGreen border-8 h-screen/30 w-screen/90 items-center gap-2 pl-2 my-4 md:h-screen/40">
         <div className="row-start-1 row-span-3 col-start-1 h-full flex flex-col justify-center items-center">
         <div className="min-w-32 max-w-32 min-h-32 max-h-32 md:min-w-40 md:max-w-40 md:min-h-40 md:max-h-40 xl:min-w-52 xl:max-w-52 xl:min-h-52 xl:max-h-52 vSm:min-w-24 vSm:max-w-24 vSm:min-h-24 vSm:max-h-24">
-        <img src="./src/images/cflowermtn.png" alt="c-flower-mountain-cover" className="min-w-32 max-w-32 min-h-32 max-h-32 absolute md:min-w-40 md:max-w-40 md:min-h-40 md:max-h-40 xl:min-w-52 xl:max-w-52 xl:min-h-52 xl:max-h-52 vSm:min-w-24 vSm:max-w-24 vSm:min-h-24 vSm:max-h-24" />
+        <img src="/images/cflowermtn.png" alt="c-flower-mountain-cover" className="min-w-32 max-w-32 min-h-32 max-h-32 absolute md:min-w-40 md:max-w-40 md:min-h-40 md:max-h-40 xl:min-w-52 xl:max-w-52 xl:min-h-52 xl:max-h-52 vSm:min-w-24 vSm:max-w-24 vSm:min-h-24 vSm:max-h-24" />
         </div>
         </div>
         <div className="col-start-2 col-span-2 row-start-1 row-span-3 flex flex-col flex-nowrap h-full justify-around pr-2">

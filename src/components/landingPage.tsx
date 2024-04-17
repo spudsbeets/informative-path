@@ -31,6 +31,7 @@ const LandingPage = () => {
             return {pageNum: 3}
           }
           default: {
+            console.log(state)
             throw new Error("whaaat")
           }
         }
