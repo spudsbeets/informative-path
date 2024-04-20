@@ -16,7 +16,7 @@ const CodePage = () => {
 
         <section className="grid grid-cols-2 grid-rows-3 bg-videoGameGreen border-borderGreen border-8 h-screen/30 w-screen/90 items-center gap-2 pl-2 my-4 md:h-screen/40">
         <div className="row-start-1 row-span-3 col-start-1 h-full flex flex-col justify-center items-center min-w-48 max-w-48 min-h-40 max-h-40 md:min-w-80 md:max-w-80 md:min-h-64 md:max-h-64 lg:min-w-[26rem] lg:max-w-[26rem] lg:min-h-80 lg:max-h-80 xl:pl-12 pSm:min-w-40 pSm:max-w-40 pSm:min-h-32 pSm:max-h-32 vSm:min-w-36 vSm:max-w-36 vSm:min-h-28 vSm:max-h-28">
-        <video src="/videos/spudintransitvid.mp4" autoPlay muted loop className="min-w-48 max-w-48 min-h-40 max-h-40 md:min-w-80 md:max-w-80 md:min-h-64 md:max-h-64 lg:min-w-[26rem] lg:max-w-[26rem] lg:min-h-80 lg:max-h-80 pSm:min-w-40 pSm:max-w-40 pSm:min-h-32 pSm:max-h-32 vSm:min-w-36 vSm:max-w-36 vSm:min-h-28 vSm:max-h-28"></video>
+        <video src="/videos/spudintransitvid.mp4" autoPlay muted loop webkit-playsinline playsInline className="min-w-48 max-w-48 min-h-40 max-h-40 md:min-w-80 md:max-w-80 md:min-h-64 md:max-h-64 lg:min-w-[26rem] lg:max-w-[26rem] lg:min-h-80 lg:max-h-80 pSm:min-w-40 pSm:max-w-40 pSm:min-h-32 pSm:max-h-32 vSm:min-w-36 vSm:max-w-36 vSm:min-h-28 vSm:max-h-28"></video>
         </div>
         <div className="col-start-2 row-start-1 row-span-3 flex flex-col flex-nowrap h-full justify-around pr-2">
          <a href="linkToHomePage"><h2 className="text-sm text-center underline text-blue-800 hover:text-blue-600 md:text-lg xl:text-xl vSm:text-xs">spudintransit.com</h2></a>
@@ -27,7 +27,7 @@ const CodePage = () => {
 
         <section className="grid grid-cols-2 grid-rows-3 bg-videoGameGreen border-borderGreen border-8 h-screen/30 w-screen/90 items-center gap-2 pl-2 my-4 md:h-screen/40">
         <div className="row-start-1 row-span-3 col-start-1 h-full flex flex-col justify-center items-center min-w-48 max-w-48 min-h-40 max-h-40 md:min-w-80 md:max-w-80 md:min-h-64 md:max-h-64 lg:min-w-[26rem] lg:max-w-[26rem] lg:min-h-80 lg:max-h-80 xl:pl-12 pSm:min-w-40 pSm:max-w-40 pSm:min-h-32 pSm:max-h-32 vSm:min-w-36 vSm:max-w-36 vSm:min-h-28 vSm:max-h-28">
-        <video src="/videos/cocktailclashvid.mp4" autoPlay muted loop className="min-w-48 max-w-48 min-h-40 max-h-40 md:min-w-80 md:max-w-80 md:min-h-64 md:max-h-64 lg:min-w-[26rem] lg:max-w-[26rem] lg:min-h-80 lg:max-h-80 pSm:min-w-40 pSm:max-w-40 pSm:min-h-32 pSm:max-h-32 vSm:min-w-36 vSm:max-w-36 vSm:min-h-28 vSm:max-h-28"></video>
+        <video src="/videos/cocktailclashvid.mp4" autoPlay muted loop webkit-playsinline playsInline className="min-w-48 max-w-48 min-h-40 max-h-40 md:min-w-80 md:max-w-80 md:min-h-64 md:max-h-64 lg:min-w-[26rem] lg:max-w-[26rem] lg:min-h-80 lg:max-h-80 pSm:min-w-40 pSm:max-w-40 pSm:min-h-32 pSm:max-h-32 vSm:min-w-36 vSm:max-w-36 vSm:min-h-28 vSm:max-h-28"></video>
         </div>
         <div className="col-start-2 row-start-1 row-span-3 flex flex-col flex-nowrap h-full justify-around pr-2">
          <a target="_blank" href="https://www.cocktail-clash.online"><h2 className="text-sm text-center underline text-blue-800 hover:text-blue-600 md:text-lg xl:text-xl vSm:text-xs">Cocktail Clash</h2></a>
@@ -38,7 +38,7 @@ const CodePage = () => {
 
         <section className="grid grid-cols-2 grid-rows-3 bg-videoGameGreen border-borderGreen border-8 h-screen/30 w-screen/90 items-center gap-2 pl-2 my-4 md:h-screen/40">
         <div className="row-start-1 row-span-3 col-start-1 h-full flex flex-col justify-center items-center min-w-48 max-w-48 min-h-40 max-h-40 md:min-w-80 md:max-w-80 md:min-h-64 md:max-h-64 lg:min-w-[26rem] lg:max-w-[26rem] lg:min-h-80 lg:max-h-80 xl:pl-12 pSm:min-w-40 pSm:max-w-40 pSm:min-h-32 pSm:max-h-32 vSm:min-w-36 vSm:max-w-36 vSm:min-h-28 vSm:max-h-28">
-        <video src="/videos/spudsship.mp4" autoPlay muted loop className="min-w-48 max-w-48 min-h-40 max-h-40 md:min-w-80 md:max-w-80 md:min-h-64 md:max-h-64 lg:min-w-[26rem] lg:max-w-[26rem] lg:min-h-80 lg:max-h-80 pSm:min-w-40 pSm:max-w-40 pSm:min-h-32 pSm:max-h-32 vSm:min-w-36 vSm:max-w-36 vSm:min-h-28 vSm:max-h-28"></video>
+        <video src="/videos/spudsship.mp4" autoPlay muted loop webkit-playsinline playsInline className="min-w-48 max-w-48 min-h-40 max-h-40 md:min-w-80 md:max-w-80 md:min-h-64 md:max-h-64 lg:min-w-[26rem] lg:max-w-[26rem] lg:min-h-80 lg:max-h-80 pSm:min-w-40 pSm:max-w-40 pSm:min-h-32 pSm:max-h-32 vSm:min-w-36 vSm:max-w-36 vSm:min-h-28 vSm:max-h-28"></video>
         </div>
         <div className="col-start-2 row-start-1 row-span-3 flex flex-col flex-nowrap h-full justify-around pr-2">
          <a target="_blank" href="https://www.spuds-ship.online"><h2 className="text-sm text-center underline text-blue-800 hover:text-blue-600 md:text-lg xl:text-xl vSm:text-xs">Spud's Ship</h2></a>
@@ -49,8 +49,8 @@ const CodePage = () => {
 
         <section className="grid grid-cols-2 grid-rows-3 bg-videoGameGreen border-borderGreen border-8 h-screen/30 w-screen/90 items-center gap-2 pl-2 my-4 md:h-screen/40">
         <div className="row-start-1 row-span-3 col-start-1 h-full flex flex-col justify-center items-center min-w-48 max-w-48 min-h-40 max-h-40 md:min-w-80 md:max-w-80 md:min-h-64 md:max-h-64 lg:min-w-[26rem] lg:max-w-[26rem] lg:min-h-80 lg:max-h-80 xl:pl-12 pSm:min-w-40 pSm:max-w-40 pSm:min-h-32 pSm:max-h-32 vSm:min-w-36 vSm:max-w-36 vSm:min-h-28 vSm:max-h-28">
-        <video src="/videos/tuesdaysnipsvid.mp4" autoPlay muted loop className="absolute min-w-48 max-w-48 min-h-40 max-h-40 animate-opacity-shift-2pics-1 pb-6 md:min-w-80 md:max-w-80 md:min-h-64 md:max-h-64 lg:min-w-[26rem] lg:max-w-[26rem] lg:min-h-80 lg:max-h-80 pSm:min-w-40 pSm:max-w-40 pSm:min-h-32 pSm:max-h-32 vSm:min-w-36 vSm:max-w-36 vSm:min-h-28 vSm:max-h-28"></video>
-        <video src="/videos/wednesdaysnipsvid.mp4" autoPlay muted loop className="absolute min-w-48 max-w-48 min-h-40 max-h-40 animate-opacity-shift-2pics-2 pb-6 md:min-w-80 md:max-w-80 md:min-h-64 md:max-h-64 lg:min-w-[26rem] lg:max-w-[26rem] lg:min-h-80 lg:max-h-80 pSm:min-w-40 pSm:max-w-40 pSm:min-h-32 pSm:max-h-32 vSm:min-w-36 vSm:max-w-36 vSm:min-h-28 vSm:max-h-28"></video>
+        <video src="/videos/tuesdaysnipsvid.mp4" autoPlay muted loop webkit-playsinline playsInline className="absolute min-w-48 max-w-48 min-h-40 max-h-40 animate-opacity-shift-2pics-1 pb-6 md:min-w-80 md:max-w-80 md:min-h-64 md:max-h-64 lg:min-w-[26rem] lg:max-w-[26rem] lg:min-h-80 lg:max-h-80 pSm:min-w-40 pSm:max-w-40 pSm:min-h-32 pSm:max-h-32 vSm:min-w-36 vSm:max-w-36 vSm:min-h-28 vSm:max-h-28"></video>
+        <video src="/videos/wednesdaysnipsvid.mp4" autoPlay muted loop webkit-playsinline playsInline className="absolute min-w-48 max-w-48 min-h-40 max-h-40 animate-opacity-shift-2pics-2 pb-6 md:min-w-80 md:max-w-80 md:min-h-64 md:max-h-64 lg:min-w-[26rem] lg:max-w-[26rem] lg:min-h-80 lg:max-h-80 pSm:min-w-40 pSm:max-w-40 pSm:min-h-32 pSm:max-h-32 vSm:min-w-36 vSm:max-w-36 vSm:min-h-28 vSm:max-h-28"></video>
         <div className="flex flex-row self-center pt-40 md:pt-56 lg:pt-64">
             <div className="bg-borderGreen rounded-full w-2 h-2 mx-1 animate-button-opacity-shift-2pics-1"></div>
             <div className="bg-borderGreen rounded-full w-2 h-2 mx-1 animate-button-opacity-shift-2pics-2"></div>
