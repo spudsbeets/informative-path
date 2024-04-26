@@ -52,26 +52,26 @@ const LandingPage = () => {
     }
 
     return(
-     <div className="bg-gradient-to-br from-gray-900 to-gray-500 w-screen h-screen font-silkscreen text-gray-800 flex flex-col justify-center">
+     <div className="bg-gradient-to-br from-gray-900 to-gray-500 w-screen h-screen font-silkscreen text-gray-800 flex flex-col justify-center phone-hor:flex-row">
 
         <div>
             {pageContent()}
         </div>
         
-        <div className="flex flex-row flex-nowrap self-center mt-8">
-        <button id="music-button" className="bg-videoGameGreen rounded-full opacity-50 w-10 h-10 mx-10 border-double border-borderGreen border-8 hover:bg-opacity-50" onClick={() => {
+        <div className="flex flex-row flex-nowrap self-center mt-8 phone-hor:flex-col phone-hor:self-center phone-hor:mt-0">
+        <button id="music-button" className="bg-videoGameGreen rounded-full opacity-50 w-10 h-10 mx-10 border-double border-borderGreen border-8 hover:bg-opacity-50 phone-hor:mt-8" onClick={() => {
             dispatch({ type: REDUCER_TYPE.ONE });
             (document.getElementById("music-button") as HTMLButtonElement).style.opacity = ".5";
             (document.getElementById("code-button") as HTMLButtonElement).style.opacity = "1";
             (document.getElementById("me-button") as HTMLButtonElement).style.opacity = "1"
         }}></button>
-        <button id="code-button" className="bg-videoGameGreen rounded-full opacity-100 w-10 h-10 mx-10 border-double border-borderGreen border-8 hover:bg-opacity-50" onClick={() => {
+        <button id="code-button" className="bg-videoGameGreen rounded-full opacity-100 w-10 h-10 mx-10 border-double border-borderGreen border-8 hover:bg-opacity-50 phone-hor:mt-8" onClick={() => {
             dispatch({ type: REDUCER_TYPE.TWO });
             (document.getElementById("code-button") as HTMLButtonElement).style.opacity = ".5";
             (document.getElementById("music-button") as HTMLButtonElement).style.opacity = "1";
             (document.getElementById("me-button") as HTMLButtonElement).style.opacity = "1"
         }}></button>
-        <button id="me-button" className="bg-videoGameGreen rounded-full opacity-100 w-10 h-10 mx-10 border-double border-borderGreen border-8 hover:bg-opacity-50" onClick={() => {
+        <button id="me-button" className="bg-videoGameGreen rounded-full opacity-100 w-10 h-10 mx-10 border-double border-borderGreen border-8 hover:bg-opacity-50 phone-hor:mt-8" onClick={() => {
             dispatch({ type: REDUCER_TYPE.THREE });
             (document.getElementById("me-button") as HTMLButtonElement).style.opacity = ".5";
             (document.getElementById("code-button") as HTMLButtonElement).style.opacity = "1";

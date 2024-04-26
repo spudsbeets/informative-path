@@ -25,7 +25,8 @@ export default {
       fontSize: {
         'xSm': '10px',
         'xxSm': '8px',
-        'xxxSm': '7px'
+        'xxxSm': '7px',
+        'xxxxSm': '6px'
       },
       keyframes: {
         slideMovement : {
@@ -172,7 +173,11 @@ export default {
       },
       screens: {
         'vSm': { 'max': '400px' },
-        'pSm': { 'max': '480px' }
+        'pSm': { 'max': '480px' },
+        'md': '850px',
+        'phone-hor': { 'raw': '(max-height:580px) and (min-width:600px)' },
+        'phone-hor-sm': { 'raw': '(max-height:420px) and (min-width:600px)' },
+
       }
     },
   },
