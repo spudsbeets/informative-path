@@ -51,7 +51,7 @@ const MusicPage = () => {
         </div>
         </div>
         <div className="col-start-2 col-span-2 row-start-1 row-span-3 flex flex-col flex-nowrap h-full justify-around pr-2">
-         <a href="linkToAlbum" target="_blank"><h2 className="text-xs text-center underline text-blue-800 hover:text-blue-600 md:text-lg xl:text-xl vSm:text-xSm">Tuesday with Gunther and Pharoah</h2></a>
+         <a href="https://open.spotify.com/album/3nDfz40mSeu1JFF44A8ZqQ?si=nAKrSLWYRQKKbS1YxMV29Q" target="_blank"><h2 className="text-xs text-center underline text-blue-800 hover:text-blue-600 md:text-lg xl:text-xl vSm:text-xSm">Tuesday with Gunther and Pharoah</h2></a>
          <p className="text-xSm text-center md:text-sm xl:text-base vSm:text-xxSm phone-hor:text-xSm phone-hor-sm:text-xxSm">1/2 of a larger project, this album is structured around an average day in the lives of my cats. Thrilling events include mealtimes alongside watching birds and cars.</p>
          <p className="text-xSm text-center md:text-sm xl:text-base vSm:text-xxSm phone-hor:text-xSm phone-hor-sm:text-xxSm">Released: 05.21.2024</p>
         </div>
@@ -75,7 +75,7 @@ const MusicPage = () => {
         </div>
         </div>
         <div className="col-start-2 col-span-2 row-start-1 row-span-3 flex flex-col flex-nowrap h-full justify-around pr-2">
-         <a href="linkToAlbum" target="_blank"><h2 className="text-xs text-center underline text-blue-800 hover:text-blue-600 md:text-lg xl:text-xl vSm:text-xSm">Wednesday with Gunther and Pharoah</h2></a>
+         <a href="https://open.spotify.com/album/3rIbQZ076SLLuK2C1YeFq9?si=blLSOwNsQcOWJvlCIizBwQ" target="_blank"><h2 className="text-xs text-center underline text-blue-800 hover:text-blue-600 md:text-lg xl:text-xl vSm:text-xSm">Wednesday with Gunther and Pharoah</h2></a>
          <p className="text-xSm text-center md:text-sm xl:text-base vSm:text-xxSm phone-hor:text-xxSm">1/2 of a larger project, this day in the lives of my cats takes a turn for the surreal when they enjoy a hefty dose of catnip in the morning, launching them into an adventure of self-discovery.</p>
          <p className="text-xSm text-center md:text-sm xl:text-base vSm:text-xxSm phone-hor:text-xxSm">Released: 05.22.2024</p>
         </div>
