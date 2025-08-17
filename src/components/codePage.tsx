@@ -19,7 +19,7 @@ const CodePage = () => {
         <video src="/videos/spudintransitvid.mp4" autoPlay muted loop webkit-playsinline playsInline className="min-w-48 max-w-48 min-h-40 max-h-40 md:min-w-80 md:max-w-80 md:min-h-64 md:max-h-64 lg:min-w-[26rem] lg:max-w-[26rem] lg:min-h-80 lg:max-h-80 pSm:min-w-40 pSm:max-w-40 pSm:min-h-32 pSm:max-h-32 vSm:min-w-36 vSm:max-w-36 vSm:min-h-28 vSm:max-h-28 phone-hor-sm:min-w-28 phone-hor-sm:max-w-28 phone-hor-sm:min-h-24 phone-hor-sm:max-h-24 phone-hor-sm:ml-6"></video>
         </div>
         <div className="col-start-2 row-start-1 row-span-3 flex flex-col flex-nowrap h-full justify-around pr-2">
-         <a href="https://www.spudintransit.com"><h2 className="text-sm text-center underline text-blue-800 hover:text-blue-600 md:text-lg xl:text-xl vSm:text-xs phone-hor-sm:text-xSm">spudintransit.com</h2></a>
+         <a href="https://github.com/spudsbeets/spudintransit.com/tree/main"><h2 className="text-sm text-center underline text-blue-800 hover:text-blue-600 md:text-lg xl:text-xl vSm:text-xs phone-hor-sm:text-xSm">spudintransit.com</h2></a>
          <p className="text-xxSm text-center md:text-sm xl:text-base vSm:text-xxxSm phone-hor:text-xxxSm">The very website you're currently exploring! This website I built contains all the details you'd ever like to know about me, my music, and my coding projects. One path has several puzzles to solve and a unique maze to navigate while the other demonstrates a more traditional way to present information.</p>
          <p className="text-xxSm text-center md:text-sm xl:text-base vSm:text-xxxSm phone-hor:text-xxxSm">React, TypeScript, JavaScript, Tailwind, Vite, node.js</p>
         </div>
@@ -30,7 +30,7 @@ const CodePage = () => {
         <video src="/videos/cocktailclashvid.mp4" autoPlay muted loop webkit-playsinline playsInline className="min-w-48 max-w-48 min-h-40 max-h-40 md:min-w-80 md:max-w-80 md:min-h-64 md:max-h-64 lg:min-w-[26rem] lg:max-w-[26rem] lg:min-h-80 lg:max-h-80 pSm:min-w-40 pSm:max-w-40 pSm:min-h-32 pSm:max-h-32 vSm:min-w-36 vSm:max-w-36 vSm:min-h-28 vSm:max-h-28 phone-hor-sm:min-w-28 phone-hor-sm:max-w-28 phone-hor-sm:min-h-24 phone-hor-sm:max-h-24 phone-hor-sm:ml-6"></video>
         </div>
         <div className="col-start-2 row-start-1 row-span-3 flex flex-col flex-nowrap h-full justify-around pr-2">
-         <a target="_blank" href="https://www.cocktail-clash.online"><h2 className="text-sm text-center underline text-blue-800 hover:text-blue-600 md:text-lg xl:text-xl vSm:text-xs phone-hor-sm:text-xSm">Cocktail Clash</h2></a>
+         <a target="_blank" href="https://github.com/spudsbeets/cocktail-clash-vite"><h2 className="text-sm text-center underline text-blue-800 hover:text-blue-600 md:text-lg xl:text-xl vSm:text-xs phone-hor-sm:text-xSm">Cocktail Clash</h2></a>
          <p className="text-xxSm text-center md:text-sm xl:text-base vSm:text-xxxSm phone-hor:text-xxxSm">In this game you have the opportunity to build your dream bar. Over the course of 5 rounds, gather your spirits, ingredients, decor, and musicians with an eye toward the preferences of picky customers. Win enough customers over and consider your business launch a success! (only available on desktop/tablet)</p>
          <p className="text-xxSm text-center md:text-sm xl:text-base vSm:text-xxxSm phone-hor:text-xxxSm">React, JavaScript, Vite, node.js</p>
         </div>
@@ -41,7 +41,7 @@ const CodePage = () => {
         <video src="/videos/spudsship.mp4" autoPlay muted loop webkit-playsinline playsInline className="min-w-48 max-w-48 min-h-40 max-h-40 md:min-w-80 md:max-w-80 md:min-h-64 md:max-h-64 lg:min-w-[26rem] lg:max-w-[26rem] lg:min-h-80 lg:max-h-80 pSm:min-w-40 pSm:max-w-40 pSm:min-h-32 pSm:max-h-32 vSm:min-w-36 vSm:max-w-36 vSm:min-h-28 vSm:max-h-28 phone-hor-sm:min-w-28 phone-hor-sm:max-w-28 phone-hor-sm:min-h-24 phone-hor-sm:max-h-24 phone-hor-sm:ml-6"></video>
         </div>
         <div className="col-start-2 row-start-1 row-span-3 flex flex-col flex-nowrap h-full justify-around pr-2">
-         <a target="_blank" href="https://www.spuds-ship.online"><h2 className="text-sm text-center underline text-blue-800 hover:text-blue-600 md:text-lg xl:text-xl vSm:text-xs phone-hor-sm:text-xSm">Spud's Ship</h2></a>
+         <a target="_blank" href="https://github.com/spudsbeets/spuds-ship"><h2 className="text-sm text-center underline text-blue-800 hover:text-blue-600 md:text-lg xl:text-xl vSm:text-xs phone-hor-sm:text-xSm">Spud's Ship</h2></a>
          <p className="text-xxSm text-center md:text-sm xl:text-base vSm:text-xxxSm phone-hor:text-xxxSm">Fly through the cosmos playing as yours truly. The hope is to use your ship to get to the moon, but look out, outer space is replete with cats and they have no intention of getting out of your way...</p>
          <p className="text-xxSm text-center md:text-sm xl:text-base vSm:text-xxxSm phone-hor:text-xxxSm">React, TypeScript, JavaScript, Vite, node.js</p>
         </div>
@@ -57,7 +57,7 @@ const CodePage = () => {
         </div>
         </div>
         <div className="col-start-2 row-start-1 row-span-3 flex flex-col flex-nowrap h-full justify-around pr-2">
-         <a href="https://www.spudintransit.com/spudssnipstuesday" target="_blank"><h2 className="text-sm text-center underline text-blue-800 hover:text-blue-600 md:text-lg xl:text-xl vSm:text-xs phone-hor-sm:text-xSm">Spud's Snips</h2></a>
+         <a href="https://github.com/spudsbeets/spudintransit.com/tree/main" target="_blank"><h2 className="text-sm text-center underline text-blue-800 hover:text-blue-600 md:text-lg xl:text-xl vSm:text-xs phone-hor-sm:text-xSm">Spud's Snips</h2></a>
          <p className="text-xxSm text-center md:text-sm xl:text-base vSm:text-xxxSm phone-hor:text-xxxSm">These sneak peaks offer snippets of songs from my upcoming albums. Trigger the snips by clicking the buttons or pressing correlated keys on your keyboard.</p>
          <p className="text-xxSm text-center md:text-sm xl:text-base vSm:text-xxxSm phone-hor:text-xxxSm">React, TypeScript, JavaScript, Vite, node.js</p>
         </div>

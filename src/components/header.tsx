@@ -36,7 +36,7 @@ const Header = () => {
         <Link to="/codePage" rel="noreferrer" className="text-center hover:opacity-50 bg-slate-800 rounded-lg py-4 px-10">Programming</Link>
         <Link to="/mePage" rel="noreferrer" className="text-center hover:opacity-50 bg-slate-600 rounded-lg py-4 px-10">Me!</Link>
         <Link to="/linksPage" rel="noreferrer" className="text-center hover:opacity-50 bg-slate-800 rounded-lg py-4 px-10">Links</Link>
-        <a href="https://www.spudintransit.com" className="text-center hover:opacity-50 bg-slate-600 rounded-lg py-4 px-10">Home</a>
+        <a href="https://github.com/spudsbeets/spudintransit.com/tree/main" className="text-center hover:opacity-50 bg-slate-600 rounded-lg py-4 px-10">Home</a>
         </nav>
         </section>
         <section className="hidden lg:flex phone-hor:flex flex-row text-[13px] phone-hor:text-[10px] flex-nowrap font-silkscreen text-videoGameGreen">
@@ -44,7 +44,7 @@ const Header = () => {
         <Link to="/codePage" rel="noreferrer" className="hover:opacity-50 bg-slate-800 rounded-lg self-center mx-4 py-2 px-6 phone-hor:mx-2 phone-hor:px-2">Programming</Link>
         <Link to="/mePage" rel="noreferrer" className="hover:opacity-50 bg-slate-600 rounded-lg self-center mx-4 py-2 px-6 phone-hor:mx-2 phone-hor:px-2">Me!</Link>
         <Link to="/linksPage" rel="noreferrer" className="hover:opacity-50 bg-slate-800 rounded-lg self-center mx-4 py-2 px-6 phone-hor:mx-2 phone-hor:px-2">Links</Link>
-        <a href="https://www.spudintransit.com" className="hover:opacity-50 bg-slate-600 rounded-lg self-center mx-4 py-2 px-6 phone-hor:mx-2 phone-hor:px-2">Home</a>
+        <a href="https://github.com/spudsbeets/spudintransit.com/tree/main" className="hover:opacity-50 bg-slate-600 rounded-lg self-center mx-4 py-2 px-6 phone-hor:mx-2 phone-hor:px-2">Home</a>
         </section>
         </header>
     )
